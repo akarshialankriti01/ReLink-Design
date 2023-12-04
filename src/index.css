@@ -70,19 +70,19 @@ h5::before,
 h5::after {
     content: "";
     display: inline-block;
-    width: 200px; /* Adjust the width of the lines as needed */
-    height: 1px; /* Adjust the thickness of the lines as needed */
-    background-color: #100e0e; /* Adjust the color of the lines as needed */
-    margin: 0 10px; /* Adjust the spacing between lines and text as needed */
+    width: 200px; 
+    height: 1px; 
+    background-color: #100e0e; 
+    margin: 0 10px; 
 }
 
 /* Center the "OR" text */
 h5 {
     display: flex;
     align-items: center;
-    color: #190909; /* Adjust the color of the text as needed */
-    font-size: 18px; /* Adjust the font size of the text as needed */
-    margin-bottom: 20px; /* Adjust the margin as needed */
+    color: #190909; 
+    font-size: 18px; 
+    margin-bottom: 20px; 
 }
 
 h3{ 
