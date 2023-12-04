@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+learning.txt
+firebase.js
+
+src/components/AuthDetails.jsx
+src/components/SignUpGoogle.jsx
+src/components/signUpReducer.js
+src/pages/Error.jsx
+src/pages/Home.jsx
+src/pages/Landing.jsx
+src/App.js
+src/firebase.js
+src/index.js
+public
+src/logo.svg
+
+

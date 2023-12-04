@@ -1,0 +1,124 @@
+.bg-gradient{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg,#FAF9F6, #10C1F2);   
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    transform: translate(-50%,-50%);
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 15px;
+  }
+  .content header{
+    color: black;
+    text-align: left;
+    left: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: 'Brawler';
+}
+.field{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(19, 17, 17, 0.234);
+    border-radius: 8px;
+  }
+  .field span{
+    color: #000;
+    width: 40px;
+    line-height: 45px;
+  }
+  .field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border:2px solid transparent; 
+    border-radius: 30px;
+    outline: none;
+    color: #000000b4;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+  }
+
+  button[type="submit"]{
+    width: 100%;
+    height: 45px;
+    background: rgba(32, 100, 164, 0.839);
+    border: 1px solid #2691d9;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Brawler';
+    color: white;
+    border-radius: 8px;
+  }
+  /* Style for the lines before and after "OR" */
+h5::before,
+h5::after {
+    content: "";
+    display: inline-block;
+    width: 200px; /* Adjust the width of the lines as needed */
+    height: 1px; /* Adjust the thickness of the lines as needed */
+    background-color: #100e0e; /* Adjust the color of the lines as needed */
+    margin: 0 10px; /* Adjust the spacing between lines and text as needed */
+}
+
+/* Center the "OR" text */
+h5 {
+    display: flex;
+    align-items: center;
+    color: #190909; /* Adjust the color of the text as needed */
+    font-size: 18px; /* Adjust the font size of the text as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+h3{ 
+    text-align: left;
+}
+
+.contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+}
+.contents header{
+    color: black;
+    text-align: left;
+    left: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: 'Brawler';
+}
+.pass{
+    text-align: left;
+    margin: 10px 0;
+  }
+  .pass a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Brawler';
+  }
+  .pass:hover a{
+    text-decoration: underline;
+  }
+
